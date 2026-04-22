@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	fspkg "github.com/heitor/remote-ai-connector/racx/internal/fs"
+	fspkg "github.com/HeitorQuaglia/remote-ai-connector/racx/internal/fs"
 )
 
 func Tree(s *fspkg.Sandbox, v *fspkg.Visibility, req TreeRequest) (*TreeResponse, *Error) {

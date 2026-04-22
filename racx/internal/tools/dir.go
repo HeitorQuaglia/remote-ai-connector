@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	fspkg "github.com/heitor/remote-ai-connector/racx/internal/fs"
+	fspkg "github.com/HeitorQuaglia/remote-ai-connector/racx/internal/fs"
 )
 
 func Dir(s *fspkg.Sandbox, v *fspkg.Visibility, req DirRequest) (*DirResponse, *Error) {

@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/heitor/remote-ai-connector/racx/internal/audit"
-	fspkg "github.com/heitor/remote-ai-connector/racx/internal/fs"
-	"github.com/heitor/remote-ai-connector/racx/internal/tools"
+	"github.com/HeitorQuaglia/remote-ai-connector/racx/internal/audit"
+	fspkg "github.com/HeitorQuaglia/remote-ai-connector/racx/internal/fs"
+	"github.com/HeitorQuaglia/remote-ai-connector/racx/internal/tools"
 )
 
 func newTestServer(t *testing.T, root string) *httptest.Server {

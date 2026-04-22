@@ -4,8 +4,8 @@ package server
 import (
 	"net/http"
 
-	"github.com/heitor/remote-ai-connector/racx/internal/audit"
-	fspkg "github.com/heitor/remote-ai-connector/racx/internal/fs"
+	"github.com/HeitorQuaglia/remote-ai-connector/racx/internal/audit"
+	fspkg "github.com/HeitorQuaglia/remote-ai-connector/racx/internal/fs"
 )
 
 type Server struct {

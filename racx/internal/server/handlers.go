@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/heitor/remote-ai-connector/racx/internal/tools"
+	"github.com/HeitorQuaglia/remote-ai-connector/racx/internal/tools"
 )
 
 func (s *Server) handlePing(w http.ResponseWriter, r *http.Request) {

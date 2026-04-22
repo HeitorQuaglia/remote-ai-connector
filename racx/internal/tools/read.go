@@ -8,7 +8,7 @@ import (
     "path/filepath"
     "strings"
 
-    fspkg "github.com/heitor/remote-ai-connector/racx/internal/fs"
+    fspkg "github.com/HeitorQuaglia/remote-ai-connector/racx/internal/fs"
 )
 
 // Read implements the `read` tool.

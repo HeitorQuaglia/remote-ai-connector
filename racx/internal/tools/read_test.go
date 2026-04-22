@@ -6,7 +6,7 @@ import (
     "strings"
     "testing"
 
-    fspkg "github.com/heitor/remote-ai-connector/racx/internal/fs"
+    fspkg "github.com/HeitorQuaglia/remote-ai-connector/racx/internal/fs"
 )
 
 func makeSandbox(t *testing.T, root string) (*fspkg.Sandbox, *fspkg.Visibility) {

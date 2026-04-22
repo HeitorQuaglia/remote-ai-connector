@@ -10,7 +10,7 @@ import (
 
     "github.com/bmatcuk/doublestar/v4"
 
-    fspkg "github.com/heitor/remote-ai-connector/racx/internal/fs"
+    fspkg "github.com/HeitorQuaglia/remote-ai-connector/racx/internal/fs"
 )
 
 func Grep(s *fspkg.Sandbox, v *fspkg.Visibility, req GrepRequest) (*GrepResponse, *Error) {
