@@ -12,4 +12,6 @@ Ponte entre IAs web (Claude.ai, ChatGPT) e a codebase local do autor. Projeto pe
 
 ## Status
 
-Plano 1 (racx core) em andamento/concluído. Plano 2 (racd) e Plano 3 (SSH + E2E) serão escritos após a conclusão do Plano 1.
+- Plano 1 (racx core): concluído.
+- Plano 2 (racd core): concluído.
+- Plano 3 (SSH + E2E integration): a escrever.
