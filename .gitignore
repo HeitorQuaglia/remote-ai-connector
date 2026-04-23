@@ -5,11 +5,16 @@
 /racx/*.test
 /racx/coverage.out
 
-# Python (será usado no Plano 2)
-/racd/__pycache__/
-/racd/*.egg-info/
+# Python (racd)
+__pycache__/
+*.egg-info/
+*.pyc
 /racd/.venv/
 /racd/dist/
+/racd/build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Ambiente local
 .env
