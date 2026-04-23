@@ -1,0 +1,12 @@
+# Example config. Generate real api_keys via `racd genkey`.
+listen: "127.0.0.1:8443"
+
+api_keys:
+  - name: claude-ai
+    key: replace-me-with-generated-key
+  - name: chatgpt
+    key: replace-me-with-generated-key
+
+executor:
+  host: 127.0.0.1
+  port: 7001
